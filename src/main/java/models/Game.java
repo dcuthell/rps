@@ -6,7 +6,6 @@ package models;
 public class Game {
 
     public String pickWinner (String one, String two) {
-
         if(one.equals(two)){
             return "Nobody";
         } else if (one.equals("rock") && (two.equals("paper"))) {
@@ -22,11 +21,7 @@ public class Game {
         } else if (one.equals("scissors") && (two.equals("paper"))) {
             return "Player 1 wins!";
         } else {
-            return "somebody";
+            return "It's a tie!";
         }
-    }
-
-    public String computerChooses(){
-        return "Sup doawgggggggg";
     }
 }
